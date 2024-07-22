@@ -1,0 +1,8 @@
+<?php
+
+namespace {{ namespace }};
+
+class {{ className }} extends {{ mustExtendClass }}
+{
+    //TODO: Add your custom logic here.
+}
