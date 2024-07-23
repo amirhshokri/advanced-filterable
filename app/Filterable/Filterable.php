@@ -1,10 +1,10 @@
 <?php
 
-namespace App\AdvancedFilters;
+namespace App\Filterable;
 
-use App\AdvancedFilters\Filter\Custom\CustomFilter;
-use App\AdvancedFilters\Filter\Defaults\DefaultFilter;
-use App\AdvancedFilters\Validator\RequestValidator;
+use App\Filterable\Filter\Custom\CustomFilter;
+use App\Filterable\Filter\Defaults\DefaultFilter;
+use App\Filterable\Validator\RequestValidator;
 use Exception;
 use Illuminate\Database\Eloquent\Builder;
 

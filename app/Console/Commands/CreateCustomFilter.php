@@ -51,7 +51,7 @@ class CreateCustomFilter extends GeneratorCommand
     protected function replaceNamespace(&$stub, $name): CreateCustomFilter
     {
         $replace = [
-            '{{ namespace }}' => 'App\AdvancedFilters\Filter\Custom',
+            '{{ namespace }}' => 'App\Filterable\Filter\Custom',
             '{{ className }}' => $this->getNameInput(),
             '{{ mustExtendClass }}' => 'CustomFilter',
         ];
@@ -76,6 +76,6 @@ class CreateCustomFilter extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace): string
     {
-        return 'App\AdvancedFilters\Filter\Custom';
+        return 'App\Filterable\Filter\Custom';
     }
 }
